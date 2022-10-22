@@ -15,7 +15,7 @@ class Animal
 }
 $sheep = new Animal("shaun");
 echo "Name : ";
-echo $sheep->name; // "shaun"
+echo $sheep->name(); // "shaun"
 echo "<br>Legs : ";
 echo $sheep->legs; // 4
 echo "<br>Cold blooded : ";
