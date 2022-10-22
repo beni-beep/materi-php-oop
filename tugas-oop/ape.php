@@ -23,7 +23,7 @@ class VisibilitasPrivate
 }
 $sungokong = new Ape("kera sakti");
 echo "Name : ";
-echo $sungokong->name;
+echo $sungokong->name();
 echo "<br>Legs : ";
 echo $sungokong->legs;
 echo "<br>Cold blooded : ";
