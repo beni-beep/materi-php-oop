@@ -21,13 +21,13 @@ class VisibilitasPrivate
         echo $this->loncat;
     }
 }
-$sungokong = new Frog("Buduk");
+$kodok = new Frog("Buduk");
 echo "Name : ";
-echo $sungokong->name;
+echo $kodok->name;
 echo "<br>Legs : ";
-echo $sungokong->legs;
+echo $kodok->legs;
 echo "<br>Cold blooded : ";
-$sungokong->cold_blooded();
+$kodok->cold_blooded();
 $visibilitasPrivate = new VisibilitasPrivate();
 echo "<br>Jump : ";
 $visibilitasPrivate->Hop();
