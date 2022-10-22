@@ -23,7 +23,7 @@ class VisibilitasPrivate
 }
 $kodok = new Frog("Buduk");
 echo "Name : ";
-echo $kodok->name;
+echo $kodok->name();
 echo "<br>Legs : ";
 echo $kodok->legs;
 echo "<br>Cold blooded : ";
